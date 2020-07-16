@@ -1,0 +1,19 @@
+.ig{
+	background: url(../img/bf7dd7c744c1be50d603af0bfe272930.jpg);
+}
+a:hover{
+	text-decoration: none !important;
+}
+.w_25{
+	width: 25%;
+}
+.bd_b{
+	border-bottom: 3px solid #E0E0E0;
+}
+.bd_t{
+	border-top: 4px solid #000000;
+	width: 15%;
+}
+.li1{
+	background-color: #EBEBEB;
+}

@@ -1,0 +1,75 @@
+#demo .carousel-indicators li{
+	width: 0.8rem;
+	height:0.8rem;
+	border-radius: 50%;
+}
+#demo .carousel-indicators .active{
+	background-color:#fff;
+}
+#demo .carousel-control-prev,
+#demo .carousel-control-next{
+	width:4%;
+	height: 20%;
+	/* background-color:#fff;s */
+	border-radius: 0.25rem;
+	top:40%;
+}
+#main{width:94%; margin: 0 auto;}
+.my_bgc{
+	background-color: #e0e0e0;
+}
+.my_bgh{
+	background-color: #F7F7F7;
+}
+@keyframes main_l{
+	from{transform:translateX(-100%);}
+	to{transform:translateX(0%);}
+}
+#main_l.move,
+#main_t4.move,
+#main_t8.move,
+#main_t10.move{
+	animation: main_l 1s linear;
+}
+@keyframes main_r{
+	from{transform:translateX(100%);}
+	to{transform:translateX(0%);}
+}
+#main_r.move,
+#main_t5.move,
+#main_t9.move,
+#main_t11.move{
+	animation: main_r 1s linear;
+}
+@keyframes main_t1{
+	0%{transform:translateY(100%);opacity: 0;}
+	50%{transform:translateY(50%);opacity: 0;}
+	100%{transform:translateY(0%);opacity: 1;}
+}
+#main_t1.move,
+#main_t2.move,
+#main_t3.move,
+#main_t6.move,
+#main_t7.move{
+	animation: main_t1 1s linear;
+}
+#main_t2>div>div,
+#main_t7>div,
+#main_t2>div>div>div>img,
+#main_t7>div>div>img{
+	transition:.3s ease-out 0s;
+}
+#main_t2>div>div:hover,
+#main_t7>div:hover{
+	transform:translateY(-2%);
+	box-shadow: 0px 10px 20px 5px rgba(0,0,0,0.1); 
+}
+#main_t2>div>div:hover>div>img,
+#main_t7>div:hover>div>img{
+	transform:scale(1.1,1.1);
+}
+.my_imgwh{
+	width: 300px;
+	height:300px;
+	overflow: hidden;
+}

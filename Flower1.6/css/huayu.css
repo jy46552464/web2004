@@ -1,0 +1,26 @@
+.my-h{
+	height: 570px;
+}
+
+.my-h1{
+	width: 250px;height:180px;
+}
+
+.pp-text{
+	font-size: 22px;font-family: 微软雅黑;color: #000000;
+}
+.pp-2{
+	font-size: 14px;font-family: arial;color: #a9a9a9;
+}
+
+.my-text{
+	font-size: 12px;font-family: 微软雅黑;color: #808080;
+}
+
+.line-h{
+	line-height: 24px;
+}
+
+.ml-5 {
+  margin-left: 5rem !important;
+}

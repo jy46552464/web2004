@@ -1,0 +1,68 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/xianxia.css">
+	</head>
+	<body>
+		<script src="js/header.js"></script>
+		<div class="container">
+			<div class="row pt-5">
+				<div class="col-lg-8 col-md-12 pt-5">
+					<div>
+						<p class="my-text-add">地址：江苏省苏州市工业园区金鸡湖大道99号</p>
+					</div>
+					<div>
+						<p class="my-text-add">电话：400 6666 6666</p>
+					</div>
+					<div class="pt-5">
+						<p class="my-text-add">您也可以通过表单联系我们：</p>
+					</div>
+					<div class="row no-gutters">
+						<div class="col-lg-6 col-md-12 pr-1">
+							<input class="my-form-control mb-3" type="text" placeholder="姓名">
+						</div>
+						<div class="col-lg-6 col-md-12 pl-1">
+							<input class="my-form-control mb-3" type="text" placeholder="电话">
+						</div>
+					</div>
+					<div>
+						<input class="my-form-control mb-3" type="text" placeholder="邮箱">
+					</div>
+					<div>
+						<textarea class="my-form-control mb-3" placeholder="内容" rows="3" cols="25"></textarea>
+					</div>
+					<div>
+						<button class="btn btn-dark rounded-0 py-1 my-px-6 mb-2">发送</button>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-12">
+					<div class="text-center border">
+						<h4 class="pp-text pt-5">门店坐标</h4>
+						<span class="pp-2">CONTACT US</span>
+						<div class="py-4">
+							<img src="img/1594287720(1).jpg" alt="">
+						</div>
+					</div>
+					<div id="container" class="w-100">
+						<!-- <img class="w-100" src="img/1594288206(1).jpg" alt=""> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://webapi.amap.com/maps?v=1.4.15&key=您申请的key值"></script>
+			<script type="text/javascript">
+			    var map = new AMap.Map('container', {
+			       // center:[106.530422,29.595571],
+			       center:[106.530422,29.595571],
+			       zoom:11
+			    });
+			</script>
+		<script src="js/footer.js"></script>
+	</body>
+</html>
